@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96c6dcda348641e4af55e8f9df0de65b, type: 3}
+  m_Name: Bundle2
+  m_EditorClassIdentifier: 
+  bundleName: Bundle 2
+  spendables:
+  - name: GoldBrick100 (ISpendable)
+    target: {fileID: 11400000, guid: f1c205923ae945a469a4edb15569b53b, type: 2}
+  - name: HealthBrick10% (ISpendable)
+    target: {fileID: 11400000, guid: 774c7b7cdd53b2045846519662508c36, type: 2}
+  - name: GoldBrick100 (ISpendable)
+    target: {fileID: 11400000, guid: f1c205923ae945a469a4edb15569b53b, type: 2}
+  rewards:
+  - name: LocationBrickCity (IReward)
+    target: {fileID: 11400000, guid: 6e9407778ac9bf44a8482fec168d1161, type: 2}
